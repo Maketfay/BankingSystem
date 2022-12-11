@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bank" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARCAEASABCBAgBBAUAgAEAIACCAABIJKAACAAACAABM=</HashCode>
+      <FileName>Bank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActualUser" Collapsed="true">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAQAAIAQAAAAAAACAAAAAAAAAAAAAIAEgQ=</HashCode>
+      <FileName>ActualUser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IRepository&lt;T&gt;" Collapsed="true">
+    <Position X="2" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAQACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Beneficiary" Collapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beneficiary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LegalEntity" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LegalEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivatePerson" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrivatePerson.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Users" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAgAAAgA=</HashCode>
+      <FileName>Users.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UsersRepository" Collapsed="true">
+    <Position X="6.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAoAAAAAAAAAAABAACgAAgAAAAAAIAAAA=</HashCode>
+      <FileName>UsersRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UsersInformation" Collapsed="true">
+    <Position X="9" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAgAAAAAAAAAEAAAAAEAFAAAAAAAAAAAAAgI=</HashCode>
+      <FileName>UsersInformation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UsersInformationRepository" Collapsed="true">
+    <Position X="4.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAwAAIAAAAAAAAAAABAAAgAAChAAAAAAAAAA=</HashCode>
+      <FileName>UsersInformationRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Payment" Collapsed="true">
+    <Position X="16.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAICAAAAABAAAgAAAAAAAAAAAAwA=</HashCode>
+      <FileName>Payment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PaymentRepository" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAQAAIAAAAAAAEAAABAAAgAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PaymentRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wallet" Collapsed="true">
+    <Position X="14.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAACAAAAAAAACAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Wallet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WalletRepository" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAgAQAAIAAAAAAAAAAABAQAgAAAAAAAAAIAAAA=</HashCode>
+      <FileName>WalletRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector&lt;T&gt;" Collapsed="true">
+    <Position X="18" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAACAAAAAAAAAIMIAAASAAMCAAIAAEBgAAAAAAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreditRepository" Collapsed="true">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAQAAIAAAAAAAAAAABAACgCAAAAAAAAIAAAA=</HashCode>
+      <FileName>CreditRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DateTime" Collapsed="true">
+    <Position X="18" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAgAAAAAAAAQAAAQAAAAiAAAAAAA=</HashCode>
+      <FileName>DateTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankStatus" Collapsed="true">
+    <Position X="14.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAEAAAAAAAQAAAIAAEAAAoBAAAgAAAAAAA=</HashCode>
+      <FileName>BankStatus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileException" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAEAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Debt::Credit" Collapsed="true">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAIAAAAAAAABCAAAAAAARAABAAABAAAAAAAAAgA=</HashCode>
+      <FileName>Credit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DebitRepository" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAUQAAIAAAAAAAAAAABAAAgAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DebitRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DebitType" Collapsed="true">
+    <Position X="10.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAEAAABAAAAACABAgA=</HashCode>
+      <FileName>DebitType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DebitTypeRepository" Collapsed="true">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAQAAIAAAAAAAAAAABAAAgAEAAAAAAAAAAAA=</HashCode>
+      <FileName>DebitTypeRepository.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Debt::Debit" Collapsed="true">
+    <Position X="12.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAACAAAAAABVAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Debit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CreditPayment" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CreditPayment.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="BalanceOperationType" Collapsed="true">
+    <Position X="9" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BalanceOperationType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

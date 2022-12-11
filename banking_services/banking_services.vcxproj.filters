@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\User">
+      <UniqueIdentifier>{d556edd4-4ec3-431b-a2d2-8ab0c9d0edd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\User\Repository">
+      <UniqueIdentifier>{051531f5-4434-4666-b039-3bd63165e705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\UsersInformation">
+      <UniqueIdentifier>{5da20751-059e-4fc9-93f2-4de1ccee0157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\UsersInformation\Repository">
+      <UniqueIdentifier>{7176a17d-c978-4c1c-8a11-dee311287125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Payment">
+      <UniqueIdentifier>{faa761ee-ffea-47a5-8ef8-be6ffe3ec83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Payment\Repository">
+      <UniqueIdentifier>{d3ff34e8-35c9-4fda-8ba5-c3de47d4ea24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Wallet">
+      <UniqueIdentifier>{5606c4f5-28f7-4947-9165-70b3252f632a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Wallet\Repository">
+      <UniqueIdentifier>{b401baa6-0c4a-4d6e-ad4a-0c0f976a9ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Credit">
+      <UniqueIdentifier>{b93e4a4c-f856-4d9d-9808-9229a4459305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Credit\Repository">
+      <UniqueIdentifier>{026d08d5-6150-49c2-b92a-e1a45ddec49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\DateTime">
+      <UniqueIdentifier>{5cb31d01-cf88-4fdc-bd79-4ab747185de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Bank">
+      <UniqueIdentifier>{8095e9b6-25c6-4248-a8bb-4bfc4f4f57e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ActualUser">
+      <UniqueIdentifier>{ce2c02b5-6ce4-43f4-aebf-0ad3f10b7a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Algoritms">
+      <UniqueIdentifier>{e8d6d452-78d9-49f5-bb87-651aabc180ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\IRepository">
+      <UniqueIdentifier>{a94a3795-7329-4ab3-82b0-9b3edd3e45d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Exception">
+      <UniqueIdentifier>{bcf5673d-f5e7-4e85-aa34-ad512334b694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Debit">
+      <UniqueIdentifier>{608a5665-4263-4538-9c42-002e517704aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Debit\Repository">
+      <UniqueIdentifier>{760d0b47-80a1-4395-8fd3-216452efdd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\DebitType">
+      <UniqueIdentifier>{6fb9aea7-676c-4a76-8f01-fecb35bee45e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\DebitType\Repository">
+      <UniqueIdentifier>{35e0877d-c15e-4938-95c6-a9175ef18bcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="banking_services.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateAccountNumber.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Hashing.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Users.json">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="UsersInformation.json">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="Wallet.json">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="Notes.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="ActualUser.json">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Users.h">
+      <Filter>Файлы заголовков\User</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersRepository.h">
+      <Filter>Файлы заголовков\User\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivatePerson.h">
+      <Filter>Файлы заголовков\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Beneficiary.h">
+      <Filter>Файлы заголовков\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Wallet.h">
+      <Filter>Файлы заголовков\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="WalletRepository.h">
+      <Filter>Файлы заголовков\Wallet\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersInformationRepository.h">
+      <Filter>Файлы заголовков\UsersInformation\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersInformation.h">
+      <Filter>Файлы заголовков\UsersInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="LegalEntity.h">
+      <Filter>Файлы заголовков\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Payment.h">
+      <Filter>Файлы заголовков\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="BalanceOperationType.h">
+      <Filter>Файлы заголовков\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="PaymentRepository.h">
+      <Filter>Файлы заголовков\Payment\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit.h">
+      <Filter>Файлы заголовков\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditRepository.h">
+      <Filter>Файлы заголовков\Credit\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Файлы заголовков\DateTime</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTimeUtilit.h">
+      <Filter>Файлы заголовков\DateTime</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditPayment.h">
+      <Filter>Файлы заголовков\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="Bank.h">
+      <Filter>Файлы заголовков\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="BankStatus.h">
+      <Filter>Файлы заголовков\Bank</Filter>
+    </ClInclude>
+    <ClInclude Include="ActualUser.h">
+      <Filter>Файлы заголовков\ActualUser</Filter>
+    </ClInclude>
+    <ClInclude Include="Hashing.h">
+      <Filter>Файлы заголовков\Algoritms</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateAccountNumber.h">
+      <Filter>Файлы заголовков\Algoritms</Filter>
+    </ClInclude>
+    <ClInclude Include="IsAutorised.h">
+      <Filter>Файлы заголовков\Algoritms</Filter>
+    </ClInclude>
+    <ClInclude Include="IRepository.h">
+      <Filter>Файлы заголовков\IRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="FileException.h">
+      <Filter>Файлы заголовков\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Файлы заголовков\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="Debit.h">
+      <Filter>Файлы заголовков\Debit</Filter>
+    </ClInclude>
+    <ClInclude Include="DebitRepository.h">
+      <Filter>Файлы заголовков\Debit\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="DebitType.h">
+      <Filter>Файлы заголовков\DebitType</Filter>
+    </ClInclude>
+    <ClInclude Include="DebitTypeRepository.h">
+      <Filter>Файлы заголовков\DebitType\Repository</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Payment.json">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Credit.json">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="BankStatus.json">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="Debit.json">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="DebitType.json">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+</Project>
